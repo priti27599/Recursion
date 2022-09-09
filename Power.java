@@ -6,7 +6,7 @@ public class Power{
         return 1;
        }
        int halfPower = optimizedPower(a, n/2);
-       int halfPowersq = halfPower * halfPower;
+       int halfPowersq = halfPower * halfPower ;
 
        if(n % 2 !=0)
        {
